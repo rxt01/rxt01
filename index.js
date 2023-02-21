@@ -9,6 +9,9 @@ function switchDark(){
     link.id = "csstheme"
     document.head.appendChild(link);
     document.getElementById("themeIcon").src = "icons/lightMode.png";
+    if (document.getElementById("github")) {
+        document.getElementById("github").src = "icons/github-mark-white.svg"
+    }
 }
 
 function switchLight(){
@@ -20,6 +23,9 @@ function switchLight(){
     link.id = "csstheme"
     document.head.appendChild(link);
     document.getElementById("themeIcon").src = "icons/darkMode.png";
+    if (document.getElementById("github")) {
+        document.getElementById("github").src = "icons/github-mark.svg"
+    }
 }
 
 function switchMode(){

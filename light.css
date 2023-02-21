@@ -5,3 +5,19 @@ button{
     background-color: #00000000;
     border-color: #00000000;
 }
+.outer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+
+.inner {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%)
+}
